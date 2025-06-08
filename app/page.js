@@ -1,5 +1,5 @@
 import Link from "next/link";
-import MealsPage from "./meals/[meal]/page";
+import MealsPage from "./meals/[mealSlug]/page";
 import classes from "./page.module.css";
 import ImageSlideshow from "./components/images/image-slideshow";
 export default function Home() {
